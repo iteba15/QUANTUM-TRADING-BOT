@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Polymarket Quantum Predictor - Complete Trading System
 
 ## 🚀 Quick Start
@@ -180,3 +181,6 @@ git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 git push -u origin main
 ```
 *Note: We included a `.gitignore` file so it won't upload massive files like the `models/` or `.exe`.*
+=======
+# QUANTUM-TRADING-BOT
+>>>>>>> 021bb966a582edb0bf0f902f45e74808fd5e1161
