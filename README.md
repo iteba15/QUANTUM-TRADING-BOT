@@ -1,14 +1,71 @@
-# QuantumBot: Hybrid Physics-ML High-Frequency Trading System
+# Market-Physics High-Frequency Solver (QuantumBot)
 
-### **Strategic Automated Trading Architecture** for Cryptocurrency Markets
+### *Applying Fluid Dynamics & Gravitational Models to Order Flow*
 
-**QuantumBot** is an advanced, multi-paradigm automated trading system engineered to predict short-term price movements in high-volatility cryptocurrency markets (BTC, ETH, SOL, XRP).
-It implements a unique **Hybrid Intelligence Architecture** that fuses two distinct analytical domains:
+**Author Note:**
+I'm an astrophysicist by training. When I looked at high-frequency crypto market data, I didn't see "candles" or "RSI". I saw **fluid dynamics**. I saw **gravitational wells** (liquidation clusters). I saw **kinetic energy** (volume delta).
 
-1.  **Newtonian Market Physics:** Models market order flow as physical forces (Kinetic Energy from volume, Potential Energy from Open Interest, and Friction from funding rates) to identify structural imbalances.
-2.  **Deep Learning Ensemble:** Utilizes a dual-layer neural network (LSTM + Transformer) trained on historical order flow to detect non-linear sequential patterns invisible to traditional technical analysis.
+So, I built this solver. It treats the market not as a casino, but as a physical system governed by laws of motion. It doesn't "gamble"; it calculates the trajectory of price based on the net forces acting upon it.
 
-This system is designed for **execution independence**, featuring real-time data aggregation, autonomous signal generation, and risk-managed position sizing based on the Kelly Criterion.
+---
+
+## 🌌 The Physics of the Market
+
+We model money flow using classical mechanics. The system solves for $\vec{F}_{net}$ (Net Force) on price $P$ at any given timeframe $t$.
+
+### 1. Kinetic Energy ($E_k$) - Order Flow
+We treat Buying/Selling Volume as the *mass* and Price Velocity as values to calculate the kinetic energy of a move.
+$$ E_k = \int_{t_0}^{t} \text{CVD}(t) \cdot \frac{dP}{dt} dt $$
+*   **Divergence:** If price $P \uparrow$ but $E_k \downarrow$, the move has no mass. **It will collapse.**
+
+### 2. Potential Energy ($E_p$) - Open Interest
+Open Interest (OI) represents potential energy stored in the system (leverage).
+$$ E_p \propto \Delta \text{OI} \cdot P $$
+*   **Transformation:** As price moves, $E_p$ is converted into $E_k$. High $E_p$ implies a massive release of energy (volatility) is imminent.
+
+### 3. Gravitational Fields ($F_g$) - Liquidation Clusters
+Leverage traders place stop-losses at predictable levels. These create massive pools of liquidity that act as gravitational attractors.
+$$ F_g = G \frac{M_{liq}}{r^2} $$
+*   Where $M_{liq}$ is the size of the liquidation cluster ($ millions) and $r$ is the distance to current price.
+*   **Effect:** Price is mathematically pulled toward these dense mass clusters.
+
+### 4. Friction ($\mu$) - Funding Rates
+The cost of carrying a position acts as a friction coefficient.
+$$ F_{friction} = -\mu \cdot N $$
+*   When Funding > 0.05%, dynamic friction becomes static, often halting trends entirely.
+
+---
+
+## 🧠 The "Quantum" Layer (Neural Networks)
+
+Since market "physics" is non-linear, I added a dual-layer neural network to handle the chaos theory components:
+*   **LSTM Layer:** Solves for time-dependent sequential patterns.
+*   **Transformer Layer:** Solves for global attention mechanisms across the order book.
+
+---
+
+## 🛠 System Status: Operational
+
+The solver is currently running in **Simulation/Signaling Mode**.
+*   **Input:** Real-time Binance Aggregated Trades (WebSocket).
+*   **Compute:** RTX 4070 Ti Super (CUDA accelerated predictions).
+*   **Output:** Probability vectors for BTC, ETH, SOL, XRP.
+
+### Does it trade on Polymarket?
+**Yes, mathematically.** The signal generation layer produces binary probabilities (e.g., $P(BTC > 100k) = 0.72$).
+*   **Current State:** It simulates execution and logs the edge against implied probabilities.
+*   **Live Execution:** The `PolymarketClient` hook exists but is currently disabled for safety. To enable live capital deployment, simply uncomment the execution block in `main.py` and add your API keys.
+
+---
+
+## 🚀 Converting to Executable
+
+I compiled the Python source into a portable binary so it can run on dedicated servers without environment dependency hell.
+
+1.  **Run Solver:** Double-click `run_exe.bat`
+2.  **View Output:** Terminal displays the calculated net forces and resultant trade vectors.
+
+*May your $F_{net}$ always be positive.*
 
 ---
 
