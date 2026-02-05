@@ -1,5 +1,16 @@
-<<<<<<< HEAD
-# Polymarket Quantum Predictor - Complete Trading System
+# QuantumBot: Hybrid Physics-ML High-Frequency Trading System
+
+### **Strategic Automated Trading Architecture** for Cryptocurrency Markets
+
+**QuantumBot** is an advanced, multi-paradigm automated trading system engineered to predict short-term price movements in high-volatility cryptocurrency markets (BTC, ETH, SOL, XRP).
+It implements a unique **Hybrid Intelligence Architecture** that fuses two distinct analytical domains:
+
+1.  **Newtonian Market Physics:** Models market order flow as physical forces (Kinetic Energy from volume, Potential Energy from Open Interest, and Friction from funding rates) to identify structural imbalances.
+2.  **Deep Learning Ensemble:** Utilizes a dual-layer neural network (LSTM + Transformer) trained on historical order flow to detect non-linear sequential patterns invisible to traditional technical analysis.
+
+This system is designed for **execution independence**, featuring real-time data aggregation, autonomous signal generation, and risk-managed position sizing based on the Kelly Criterion.
+
+---
 
 ## 🚀 Quick Start
 
