@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Polymarket Quantum Predictor - Complete Trading System
 
 ## 🚀 Quick Start
