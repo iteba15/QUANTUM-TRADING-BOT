@@ -173,25 +173,4 @@ Your complete quantum trading system is operational:
 
 ---
 
-## 🐙 GitHub Guide
 
-### Repository vs Projects?
-- **Repository (Repo):** This is where your code lives. **YOU WANT THIS.**
-- **Projects:** This is just a task board (like Trello) for planning. You usually don't need this unless you have a team.
-
-### How to push to GitHub
-1. Create a **New Repository** on GitHub.
-2. Open terminal in this folder.
-3. Run these commands:
-```bash
-git init
-git add .
-git commit -m "Initial commit - QuantumBot v2"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-git push -u origin main
-```
-*Note: We included a `.gitignore` file so it won't upload massive files like the `models/` or `.exe`.*
-=======
-# QUANTUM-TRADING-BOT
->>>>>>> 021bb966a582edb0bf0f902f45e74808fd5e1161
