@@ -27,12 +27,6 @@ That's it! The bot will automatically:
 - Display ranked opportunities
 - Optionally execute trades
 
-### 🟢 NEW: Run as Executable (No Python Needed)
-We have compiled the bot into a standalone app!
-1. Go to `dist/` folder
-2. Run `QuantumBot.exe`
-3. Or simpler: just double-click **`run_exe.bat`** in the main folder.
-
 ---
 
 ## 📁 System Components
