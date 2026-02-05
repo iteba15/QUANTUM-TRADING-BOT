@@ -1,0 +1,11 @@
+{
+  "symbol": "BTC",
+  "total_samples": 33,
+  "labeled_samples": 3,
+  "collection_start": "2026-02-05T12:44:09.871218",
+  "collection_end": "2026-02-05T13:11:55.129178",
+  "prediction_window_minutes": 15,
+  "first_price": 70561.39,
+  "last_price": 70047.82,
+  "price_change_pct": -0.7278343014501166
+}

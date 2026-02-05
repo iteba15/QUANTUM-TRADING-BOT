@@ -1,0 +1,16 @@
+{
+    "pythonVersion": "3.12",
+    "pythonPlatform": "Windows",
+    "executionEnvironments": [
+        {
+            "root": "c:/Users/EOSAT-12/TRADING",
+            "extraPaths": [
+                "c:/Users/EOSAT-12/TRADING",
+                "C:\\Users\\EOSAT-12\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages"
+            ]
+        }
+    ],
+    "typeCheckingMode": "basic",
+    "useLibraryCodeForTypes": true,
+    "reportMissingImports": "warning"
+}

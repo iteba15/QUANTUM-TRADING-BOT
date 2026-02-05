@@ -1,0 +1,11 @@
+{
+  "symbol": "SOL",
+  "total_samples": 33,
+  "labeled_samples": 3,
+  "collection_start": "2026-02-05T12:44:20.847375",
+  "collection_end": "2026-02-05T13:12:06.297049",
+  "prediction_window_minutes": 15,
+  "first_price": 90.37,
+  "last_price": 90.02,
+  "price_change_pct": -0.3872966692486539
+}

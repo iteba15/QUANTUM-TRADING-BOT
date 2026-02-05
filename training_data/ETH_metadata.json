@@ -1,0 +1,11 @@
+{
+  "symbol": "ETH",
+  "total_samples": 33,
+  "labeled_samples": 3,
+  "collection_start": "2026-02-05T12:44:15.404715",
+  "collection_end": "2026-02-05T13:12:00.561932",
+  "prediction_window_minutes": 15,
+  "first_price": 2090.0,
+  "last_price": 2072.89,
+  "price_change_pct": -0.8186602870813457
+}

@@ -1,0 +1,11 @@
+{
+  "symbol": "XRP",
+  "total_samples": 33,
+  "labeled_samples": 3,
+  "collection_start": "2026-02-05T12:44:26.269999",
+  "collection_end": "2026-02-05T13:12:11.475080",
+  "prediction_window_minutes": 15,
+  "first_price": 1.3754,
+  "last_price": 1.3702,
+  "price_change_pct": -0.3780718336483838
+}

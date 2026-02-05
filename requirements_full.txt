@@ -1,0 +1,35 @@
+# Polymarket Quantum Predictor - Requirements
+# GPU-Accelerated Trading System
+
+# Core dependencies
+requests>=2.31.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# WebSocket for real-time data
+websocket-client>=1.6.0
+
+# Machine Learning (PyTorch with CUDA support)
+# Install PyTorch with CUDA 12.1 for RTX 4070 Ti Super:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# Optional: For faster data processing
+scikit-learn>=1.3.0
+
+# Optional: For visualization (if you want to add charts)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: For better progress bars during training
+tqdm>=4.66.0
+
+# Optional: For configuration management
+pyyaml>=6.0.1
+
+# Note: Coinglass API
+# Free tier available at https://www.coinglass.com/
+# API key recommended for higher rate limits

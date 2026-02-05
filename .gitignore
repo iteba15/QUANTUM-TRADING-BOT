@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# Project Data (Don't commit large datasets)
+training_data/*.pkl
+*.csv
+*.zip
+
+# Models (Optional: Commit if you want to share trained weights, ignore if too large)
+# models/*.pth
+# Uncomment above line if models > 100MB or if you want users to train their own
+
+# Logs and temporary files
+*.log
+*.tmp
+warn-QuantumBot.txt
+xref-QuantumBot.html
+
+# PyInstaller
+*.spec
